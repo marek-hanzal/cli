@@ -1,0 +1,14 @@
+version: '2'
+services:
+    php:
+        image: marekhanzal/php:7.2
+        ports:
+            - "10022:22"
+        volumes:
+            - source:/var/www
+
+volumes:
+    source:
+
+networks:
+    common:

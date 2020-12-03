@@ -1,0 +1,7 @@
+{
+	"require": {
+		"symfony/console": "^5.2",
+		"php-di/symfony-bridge": "^3.0",
+		"dibi/dibi": "^4.2"
+	}
+}
